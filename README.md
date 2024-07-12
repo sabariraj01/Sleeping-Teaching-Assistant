@@ -2,10 +2,10 @@
 This program simulates a teaching assistant (TA) who assists students needing help in a university setting. The TA sleeps when no students are around and is awakened by the arrival of students. The simulation uses multithreading and synchronization mechanisms to manage the interaction between the TA and the students.
 
 # Features
-*Multithreading: Concurrent execution of TA and student threads using the pthread library.
-*Semaphores: Used for managing the availability of the TA and the chairs in the waiting room.
-*Mutex Locks: Ensure safe access to shared resources, preventing race conditions.
-*Realistic Simulation: Models the scenario of a TA helping students, where students wait if the TA is busy or return later if all chairs are occupied.
+* Multithreading: Concurrent execution of TA and student threads using the pthread library.
+* Semaphores: Used for managing the availability of the TA and the chairs in the waiting room.
+* Mutex Locks: Ensure safe access to shared resources, preventing race conditions.
+* Realistic Simulation: Models the scenario of a TA helping students, where students wait if the TA is busy or return later if all chairs are occupied.
 
 # Requirements
 C Compiler (e.g., gcc)
